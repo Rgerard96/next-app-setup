@@ -2,7 +2,7 @@ import '../styles/globals.css';
 import Head from 'next/head';
 import { ApolloProvider } from '@apollo/client';
 import { useApollo } from '../apollo/client';
-import { UserProvider } from '@auth0/nextjs-auth0';
+import { UserProvider } from '@auth0/nextjs-auth0/client';
 
 export default function App({ Component, pageProps }) {
   const apolloClient = useApollo(pageProps.initialApolloState);

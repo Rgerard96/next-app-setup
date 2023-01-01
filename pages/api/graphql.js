@@ -1,4 +1,4 @@
-import { ApolloServer } from 'apollo-server-micro';
+import { ApolloServer } from '@apollo/server';
 import { schema } from '../../apollo/schema';
 // import mongoose from 'mongoose';
 import dbConnect from '../../lib/dbConnect';

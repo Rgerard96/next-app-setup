@@ -1,6 +1,6 @@
 import Category from '../models/Category';
 import Note from '../models/Note';
-import { UserInputError } from 'apollo-server-micro';
+import { UserInputError } from '@apollo/server';
 import mongoose from 'mongoose';
 
 export const resolvers = {
